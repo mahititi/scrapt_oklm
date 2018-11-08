@@ -1,0 +1,11 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.placeholder{
+color: #a9a9a9;
+ width: 205px;
+ height: 25px;
+}
+
+select option:first-child{color:grey; display: none;}
+select option {color:black;}

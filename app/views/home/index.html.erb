@@ -1,0 +1,8 @@
+<h1> Recherche de fric </h1>
+<%= form_for @user do |f| %>
+<div class="field">
+  <%= f.label :cryptos %>
+  <%= f.collection_select :@cryptos, name.order
+  include_blank: true%>
+</div>
+<div class="action"><%= f.submit%><div>

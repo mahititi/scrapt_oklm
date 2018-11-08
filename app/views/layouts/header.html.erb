@@ -1,0 +1,11 @@
+<header>
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <%= link_to "cryptos", root_url, class: "navbar-brand" %>
+    <ul class="navbar-nav">
+      <% if session[:user] %>
+        <li class="nav-item">
+          <%= link_to "cryptoto", '/home', class: "nav-link" %>
+        </li>
+          </ul>
+  </nav>
+</header>
